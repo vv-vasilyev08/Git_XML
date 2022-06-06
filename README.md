@@ -25,7 +25,7 @@
 	<salary>120000</salary>
 </new>
 ```
->CTRL+D
+>CTRL+C
 28. Отправить изменения на внешний репозиторий.
 >git commit -am "changes xml file"
 29. Создать файл preferences.xml
@@ -42,7 +42,7 @@
 	<favorite_country>Не знаю</favorite_country>
 </preferences>  
 ```
->CTRL+D
+>CTRL+C
 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 >cat >> skills.xml
 ```xml
@@ -51,7 +51,7 @@
 	<QA> Linux, Bash, Git, GitHub, API, HTTP/HTTPS, Web testing, Mobile testing, Proxy, VPN, SQL, JMeter </QA>
 </skills>
 ```
->CTRL+D
+>CTRL+C
 32. Сделать коммит в одну строку.
 >git add . ; git commit -m "add skills and preferences"
 33. Отправить сразу 2 файла на внешний репозиторий.
